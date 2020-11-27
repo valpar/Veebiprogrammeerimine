@@ -52,6 +52,14 @@ table {
     text-align: center;
     font-size: 2.5em;
 }
+.alam-tooted{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.toote-pilt{
+    object-fit: contain;
+}
 
 th {
     padding-top: 12px;
@@ -67,10 +75,11 @@ td, th {
 
 footer {
     left: 0;
-    bottom: 5px;
+    bottom: auto;
     width: 100%;
     text-align: center;
     position: absolute;
+    margin-top: 100px;
     height:30px;
 }
 
